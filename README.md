@@ -1,2 +1,4 @@
 # SastaGPT2.0
 This final iteration of SastaGPT introduces several architectural advancements drawn from the DeepSeek-V3 technical report.
+
+For my final project, I worked on SastaGPT 2.0. This is the direct successor to SastaGPT (v1), an autoregressive character-level language model. This iteration of SastaGPT introduces several architectural changes drawn from the DeepSeek-V3 technical report. Enhancements include the implementation of Mixture-of-Experts (MoE) layers, Key-Value (KV) caching, and gating mechanisms. These modifications resulted in significant improvements in both training efficiency and output quality, even under limited compute constraints. After that, I worked on another minor iteration called SastaGPT 2.1 — Gotham Protocol (Codename “Alfred”). Alfred was born after hours of fine tuning on SastaGPT 2.0. The updated models, especially SastaGPT 2.0, demonstrates how modular transformer architectures can rival much larger models when optimized well.
